@@ -1,0 +1,57 @@
+html{
+  height: 100%;
+  background-color: rgb(18, 24, 42);
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+  color: white;
+}
+
+body{
+  height: 100%;
+}
+
+main{
+  display: flex;
+  margin: 15% 2%;
+}
+
+section{
+  width: 100%;
+  border: 1px solid white;
+  padding: 12px;
+}
+
+h3{
+  height: 2em;
+}
+
+.option{
+  margin-bottom: 0.5em;
+}
+
+input{
+  margin-right: 7px;
+  background-color: rgb(18, 24, 42);
+  border-color: white;
+}
+
+#roleInputs{
+  flex-grow: 1;
+}
+
+#companyInputs{
+  flex-grow: 1;
+}
+
+#resultsContainer{
+  flex-grow: 2; 
+}
